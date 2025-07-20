@@ -39,15 +39,28 @@ This in the code will calculate intersection(or overlapping regions) of both fil
 | Label | Count |
 |-------|-------|
 | Barren | 3 |
-| Cropland | 6010 |
+| Cropland | 3606 |
 | Forest | 469 |
 | Grassland | 169 |
 | Shrubland | 295 |
-| Urban | 2261 |
+| Urban | 1357 |
 | Water | 7 |
 | Wetland | 2 |
 
 To provide nearly equal samples for model to train on, i have augmented the data, using transformation like horizontal flip, vertical flip, and few rotations.
+
+### After Augmentation
+
+| Label | Count |
+|-------|-------|
+| Barren | 999 |
+| Cropland | 6010 |
+| Forest | 812 |
+| Grassland | 932 |
+| Shrubland | 882 |
+| Urban | 1357 |
+| Water | 999 |
+| Wetland | 999 |
 
 ### In case of multi class and no pixel:
 
